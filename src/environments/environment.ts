@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  weatherApi_URL: 'https://api.openweathermap.org/data/2.5/weather?q=baton-rouge&appid=7ec3239d7a239c29acd76c0fdff21417',
 };
 
 /*
